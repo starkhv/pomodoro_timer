@@ -1,6 +1,6 @@
 while true;
 	sleep 1500;
-	do espeak 'Stand up';
+	do espeak -a 20 'Stand up';
 	sleep 300;
-	espeak 'Sit down';
+	espeak -a 20 'Sit down';
 done
